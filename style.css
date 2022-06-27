@@ -1,0 +1,227 @@
+/* html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+} */
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+} */
+
+body {
+  /* font-weight: 400; */
+  /* height: 100vh; */
+  background-image: linear-gradient(to bottom, rgb(142, 206, 236), blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: fantasy;
+}
+
+main {
+  position: relative;
+  width: 100rem;
+  height: 60rem;
+  background-color: rgb(21, 139, 235);
+  filter: blur();
+}
+
+h1 {
+  font-size: 4em;
+  font-family: fantasy;
+}
+
+.btn {
+  color: black;
+  background: none;
+  border: none;
+  font-family: fantasy;
+  font-size: 2rem;
+  cursor: pointer;
+
+  background-color: silver;
+  backdrop-filter: blur(10px);
+
+  padding: 0.7rem 2.5rem;
+  border-radius: 50rem;
+}
+
+.btn--new {
+  position: absolute;
+  left: 50px;
+  top: 300px;
+}
+
+.btn--go {
+  position: absolute;
+  left: 540px;
+  bottom: 350px;
+  height: 3.8rem;
+}
+
+.guess {
+  position: absolute;
+  left: 400px;
+  bottom: 270px;
+  border: 4px solid white;
+  color: inherit;
+  font-size: 2.5rem;
+  padding: 2rem;
+  width: 2rem;
+  font-family: fantasy;
+  margin-bottom: 3rem;
+}
+
+.guessheading {
+  position: absolute;
+  left: 380px;
+  bottom: 440px;
+  font-size: 2rem;
+}
+
+.cloud {
+  position: absolute;
+  top: 80px;
+  left: 100px;
+  height: 15rem;
+}
+
+.cloud2 {
+  position: absolute;
+  top: 80px;
+  right: 500px;
+  height: 17rem;
+}
+
+.sun {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  height: 18rem;
+}
+.hangman0 {
+  height: 10rem;
+  position: absolute;
+  bottom: 40px;
+  right: 400px;
+}
+
+.hangman1 {
+  height: 10rem;
+  position: absolute;
+  bottom: 40px;
+  right: 300px;
+}
+
+.hangman2 {
+  height: 13rem;
+  position: absolute;
+  bottom: 160px;
+  right: 310px;
+}
+
+.hangman3 {
+  height: 10rem;
+  width: 20rem;
+  position: absolute;
+  bottom: 270px;
+  right: 280px;
+}
+
+.hangman4 {
+  height: 10rem;
+  position: absolute;
+  bottom: 240px;
+  right: 330px;
+}
+
+.hangman5 {
+  height: 12rem;
+  position: absolute;
+  bottom: 220px;
+  right: 180px;
+}
+
+.hangman6 {
+  height: 12rem;
+  position: absolute;
+  bottom: 170px;
+  right: 180px;
+}
+/* display letters*/
+.letter-pos0 {
+  position: absolute;
+  bottom: 70px;
+  left: 230px;
+  font-family: fantasy;
+  font-size: 3.5rem;
+}
+.letter-pos1 {
+  position: absolute;
+  bottom: 70px;
+  left: 270px;
+  font-family: fantasy;
+  font-size: 3.5rem;
+}
+
+.letter-pos2 {
+  position: absolute;
+  bottom: 70px;
+  left: 310px;
+  font-family: fantasy;
+  font-size: 3.5rem;
+}
+.letter-pos3 {
+  position: absolute;
+  bottom: 70px;
+  left: 350px;
+  font-family: fantasy;
+  font-size: 3.5rem;
+}
+.letter-pos4 {
+  position: absolute;
+  bottom: 70px;
+  left: 390px;
+  font-family: fantasy;
+  font-size: 3.5rem;
+}
+.letter-pos5 {
+  position: absolute;
+  bottom: 70px;
+  left: 430px;
+  font-family: fantasy;
+  font-size: 3.5rem;
+}
+.letter-pos6 {
+  position: absolute;
+  bottom: 70px;
+  left: 470px;
+  font-family: fantasy;
+  font-size: 3.5rem;
+}
+.letter-pos7 {
+  position: absolute;
+  bottom: 70px;
+  left: 510px;
+  font-family: fantasy;
+  font-size: 3.5rem;
+}
+.letter-pos8 {
+  position: absolute;
+  bottom: 70px;
+  left: 550px;
+  font-family: fantasy;
+  font-size: 3.5rem;
+}
+.letter-pos9 {
+  position: absolute;
+  bottom: 70px;
+  left: 590px;
+  font-family: fantasy;
+  font-size: 3.5rem;
+}
+
+.hidden {
+  display: none;
+}
